@@ -1,0 +1,61 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('./html_images/background_image.jpg');
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    height: 100%;
+    justify-content: center;
+}
+
+.home_description {
+    text-align: left;
+    color: #f4f0f0;
+    margin: 5px;
+    padding: 20px;
+}
+
+.home_description h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.home_description button {
+    background-color: #2847c1bc;
+    color: #f4f0f0;
+    font-weight: bold;
+    border: 1px solid #2847c1bc;
+    text-align: center;
+    border-radius: 6px;
+    margin: 50px;
+    padding: 10px;
+    width: 1.5in;
+    font-size: 14px;
+}
+
+#home {
+    /* float:right; */
+    display: flex;
+    margin: 5px;
+    padding: 20px;
+    background-color: rgba(14, 21, 75, 0.795);
+}
+
+.nav-bar {
+    float: left;
+}
+
+.navmenu{
+    color: #f4f0f0;
+    margin: 5px;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.search-bar {
+    float: right;
+}

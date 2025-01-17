@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Bloom Homepage</title>
+        <link rel="stylesheet" href="./travel_recommendation.css"/>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+         <nav>
+            <div id="home">
+                <div class="nav-bar">
+                    <a class="navmenu" href="travel_recommendation.html">Home</a>
+                    <a class="navmenu" href="about_us.html">About Us</a>
+                    <a class="navmenu" href="#contact-us">Contact Us</a>
+                </div>
+            </div>
+         </nav>
+
+        <section id="contact_form">
+            <div class = "home_description">
+                <h1>CONTACT US</h1>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message"></textarea><br>
+                    <button id="contact_btn" onclick="addMessage()">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <script src="travel_recommendation.js"></script>
+    </body>
+</html>
